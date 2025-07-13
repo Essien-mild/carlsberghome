@@ -639,12 +639,13 @@ body {
   .navbar {
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding: 15px;
   }
 
   .logo {
     padding-left: 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
   }
 
   .nav-links {
@@ -653,38 +654,46 @@ body {
 
   .login-btn {
     margin-right: 0;
-    padding: 8px 20px;
-    font-size: 1em;
+    padding: 10px 25px;
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+  .btn-outline{
+    align-self: flex-start;
   }
 
   .hero {
     flex-direction: column;
     padding: 20px 15px;
     text-align: center;
+    gap: 30px;
   }
-
   .hero-left {
     margin-left: 0;
     max-width: 100%;
   }
 
   .hero-left h1 {
-    font-size: 2em;
+    font-size: 2.2em;
+    font-weight: 900;
   }
 
   .hero-left p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 20px;
   }
 
   .hero-buttons {
     justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
   }
 
   .hero-right {
     width: 200px;
     height: 200px;
     margin-top: 20px;
-    display: none;
   }
 
   .ring1 {
@@ -768,7 +777,6 @@ body {
   .section.content .links,
   .section.content .resources {
     max-width: 100%;
-    align-self: start;
   }
 
   .footer {
@@ -780,12 +788,12 @@ body {
 
 @media (max-width: 480px) {
   .logo {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .login-btn {
-    padding: 6px 15px;
-    font-size: 0.9em;
+    padding: 8px 20px;
+    font-size: 1em;
   }
 
   .hero-left h1 {
