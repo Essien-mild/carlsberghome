@@ -659,7 +659,7 @@ body {
     font-weight: 700;
   }
   .btn-outline{
-    align-self: flex-start;
+   
   }
 
   .hero {
@@ -676,6 +676,8 @@ body {
   .hero-left h1 {
     font-size: 2.2em;
     font-weight: 900;
+    margin-bottom: 10%;
+    margin-top: 10%;
   }
 
   .hero-left p {
@@ -686,8 +688,8 @@ body {
 
   .hero-buttons {
     justify-content: center;
-    gap: 15px;
-    margin-top: 15px;
+    gap: 25px;
+    margin-top: 45px;
   }
 
   .hero-right {
